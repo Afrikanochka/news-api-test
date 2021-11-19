@@ -45,4 +45,17 @@ function App() {
 
 export default App;
 
+// useEffect(() => {
+//   const consultAPI = async () => {
 
+//     axios.defaults.baseURL = 'https://newsapi.org/v2/'
+//     const key = "7e19d1d82d784f0e96c716f7cd5b0333";
+
+//     const response = await axios.get(`top-headlines?country=us&category=${category}&apiKey=${key}`);
+//     const news = response.data;
+//     console.log(response)
+
+//     updateNews(news.articles);
+//   }
+//   consultAPI();
+// }, [category])
