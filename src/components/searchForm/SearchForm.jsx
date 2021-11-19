@@ -1,6 +1,5 @@
 import React from 'react';
 import useSelect from '../../hooks/useSelect';
-import Button from '@mui/material/Button';
 import './SearchForm.css';
 
 const SearchForm = ({ updateCategory }) => {
@@ -34,7 +33,11 @@ const SearchForm = ({ updateCategory }) => {
                     <h2 className="searchTitle">Search by category</h2>
                     <div className="searchSelect">
                     <SelectNews />
-                    <Button variant="contained">Search</Button>
+                    <input 
+                            type="submit"
+                            className="btn" 
+                            value="Search"
+                        />
                     </div>
                 </form>
             </div>

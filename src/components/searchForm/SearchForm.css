@@ -14,3 +14,10 @@
 .searchSelect {
     display: flex;
 }
+.btn {
+    background-color: blue;
+    border-radius: 6px solid blue;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
